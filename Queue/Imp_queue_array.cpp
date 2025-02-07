@@ -11,7 +11,7 @@ class Queue {
     
     public:
         Queue(){
-            size = 100001;
+            size = 100005;
             arr = new int[size];
             qfront = 0;
             rear = 0;
@@ -79,6 +79,8 @@ int main(){
 
     q.dequeue();
     q.display(); 
+
+    cout<<isEmpty();
 
 
     return 0;
