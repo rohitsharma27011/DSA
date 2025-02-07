@@ -80,8 +80,6 @@ int main(){
     q.dequeue();
     q.display(); 
 
-    cout<<isEmpty();
-
 
     return 0;
 }
